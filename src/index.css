@@ -37,3 +37,47 @@ main {
 header h1 {
   text-align: center;
 }
+.location-lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.location-card {
+  padding: 20px;
+}
+
+.episode-lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.episode-card {
+  padding: 20px;
+}
+
+.search-form {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.search-form form {
+  position: absolute;
+  top: 60px;
+}
+
+.search-form .search-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ui.card {
+  margin-top: 10px;
+}
+
+.nav-links {
+  color: red;
+}
